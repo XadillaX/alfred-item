@@ -1,6 +1,6 @@
 {
   "name": "alfred-item",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrapper for alfred workflow item in Node.js / io.js.",
   "main": "index.js",
   "dependencies": {
