@@ -4,7 +4,7 @@
   "description": "Wrapper for Alfred Workflow item in Node.js.",
   "main": "index.js",
   "dependencies": {
-    "xml": "^1.0.0"
+    "xml": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
