@@ -25,7 +25,7 @@ var item = new AlfredItem();
 You may add an item into it:
 
 ```javascript
-item.addItem(uid, title, subtitle, icon, options);
+item.addItem(uid, title, subtitle, arg, icon, options);
 ```
 
 > `uid` is the `uid` attribute of item.
@@ -44,6 +44,7 @@ item.addItem(uid, title, subtitle, icon, options);
 > <item uit="..." autocomplete="">
 >   <title>...</title>
 >   <subtitle>...</subtitle>
+>   <arg>...</arg>
 >   <icon>...</icon>
 > </item>
 > ```
@@ -70,6 +71,7 @@ delItemViaText(key, text);
 delItemViaAttr(key, attr);
 delItemViaTitle(title);
 delItemViaSubtitle(subtitle);
+delItemViaArg(arg);
 delItemViaIcon(icon);
 delItemViaUid(uid);
 output();
