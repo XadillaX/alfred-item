@@ -1,13 +1,17 @@
 {
   "name": "alfred-item",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Wrapper for Alfred Workflow item in Node.js.",
   "main": "index.js",
   "dependencies": {
     "xml": "^1.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-egg": "^11.0.1"
+  },
   "scripts": {
+    "postinstall": "rm -f package-lock.json"
   },
   "repository": {
     "type": "git",
