@@ -1,14 +1,13 @@
 {
   "name": "alfred-item",
   "version": "1.0.1",
-  "description": "Wrapper for alfred workflow item in Node.js / io.js.",
+  "description": "Wrapper for Alfred Workflow item in Node.js.",
   "main": "index.js",
   "dependencies": {
     "xml": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,8 +17,8 @@
     "Alfred",
     "Workflow"
   ],
-  "author": "XadillaX",
-  "license": "GPLv2",
+  "author": "XadillaX <i@2333.moe>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/XadillaX/alfred-item/issues"
   },
