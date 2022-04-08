@@ -7,7 +7,7 @@
     "xml": "^1.0.1"
   },
   "devDependencies": {
-    "eslint": "^8.11.0",
+    "eslint": "^8.13.0",
     "eslint-config-egg": "^11.0.1"
   },
   "scripts": {
